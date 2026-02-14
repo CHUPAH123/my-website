@@ -204,8 +204,8 @@ function getPage() {
                       <div className='slider-wrapper'>
                         <div className='slider'>
                           <img className="images" id='ramsoc' src="ramsoc_it.jpg" alt="ramsoc_it"></img>
-                          <img className="images" id='ramsoc1' src="/pickabots.jpg" alt="pickabots1" />
-                          <img className="images" id='ramsoc3' src="/sumobots.png" alt="pickabots3" />
+                          <img className="images" id='ramsoc1' src="pickabots.jpg" alt="pickabots1" />
+                          <img className="images" id='ramsoc3' src="sumobots.png" alt="pickabots3" />
                           <div className='slider-nav'>
                             <a href='#ramsoc'></a>
                             <a href='#ramsoc1'></a>
