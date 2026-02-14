@@ -145,6 +145,7 @@ function getPage() {
               <div className='icons'>
                 <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
                 <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+                <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
               </div>
               <div className='avatar_name'>Portfolio</div>
               <div className='avatar_active'>1 active now</div>
@@ -286,7 +287,7 @@ function getPage() {
             </div>
           </div>
         </div>
-        <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
+
         <div className={night ? `sky background` : 'sky s_f background'}>
           <img src='sunset.png' alt='background image of a sunset'></img>
         </div>
@@ -338,6 +339,7 @@ function getPage() {
               <div className='icons'>
                 <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
                 <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+                <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
               </div>
               <div className='avatar_name'>About me</div>
               <div className='avatar_active'>1 active now</div>
@@ -476,7 +478,6 @@ function getPage() {
           </div>
         </div>
 
-        <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
         <div className={night ? `sky background` : 'sky s_f background'}>
           <img src='sunset.png' alt='background image of a weather vane'></img>
         </div>
@@ -529,6 +530,7 @@ function getPage() {
               <div className='icons'>
                 <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
                 <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+                <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
               </div>
               
               <div className='avatar_name'>Random Photos</div>
@@ -647,7 +649,7 @@ function getPage() {
               <div className='project_item'></div>
 
             </div>
-            <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
+          
             <div className={night ? `sky background` : 'sky s_f background'}>
               <img src='sunset.png' alt='background image of a weather vane'></img>
             </div>
