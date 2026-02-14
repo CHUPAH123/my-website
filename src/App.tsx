@@ -225,9 +225,9 @@ function getPage() {
               <div className='project_item'></div>
 
               <div className='project_item'></div>
-              <div className='project_item left'>
+              <div className='project_item right'>
                 <FadeSection>
-                  <SpeechBubble text="That sounds so fun 🤤, did you work on anything else outside of sumobots?" direction="right" />
+                  <SpeechBubble text="That sounds so fun 🤤, what else did you do?" direction="right" />
                 </FadeSection>
               </div>
             </div>
@@ -345,7 +345,7 @@ function getPage() {
             <p>Today at 12:05pm</p>
             <div className='project'>
               <div className='project_item'></div>
-              <div className='project_item left'>
+              <div className='project_item right'>
                 <FadeSection>
                   <SpeechBubble text="Sooo is chup really your real name  ?? 🤨" direction="right" />
                 </FadeSection>
@@ -370,9 +370,9 @@ function getPage() {
 
 
               <div className='project_item'></div>
-              <div className='project_item left'>
+              <div className='project_item right'>
                 <FadeSection>
-                  <SpeechBubble text="How did you come up with that nickname?? give me some lore" direction="right" />
+                  <SpeechBubble text="Drop the lore behind the name 🙏" direction="right"/>
                 </FadeSection>
               </div>
 
@@ -401,7 +401,7 @@ function getPage() {
               <div className='project_item'></div>
               
               <div className='project_item'></div>
-              <div className='project_item left'>
+              <div className='project_item right'>
                 <FadeSection>
                   <SpeechBubble text="Wow I love those shows too, anything else you like?" direction="right" />
                 </FadeSection>
@@ -442,9 +442,9 @@ function getPage() {
             <p>Today at 7:05pm</p>
             <div className='project'>
               <div className='project_item'></div>
-              <div className='project_item left'>
+              <div className='project_item right'>
                 <FadeSection>
-                  <SpeechBubble text="Those are some really healthy hobbies to have😆" direction="right" />
+                  <SpeechBubble text="Those are some really healthy hobbies😆" direction="right" />
                 </FadeSection>
               </div>
 
@@ -465,9 +465,9 @@ function getPage() {
               <div className='project_item'></div>
 
               <div className='project_item'></div>
-              <div className='project_item left'>
+              <div className='project_item right'>
                 <FadeSection>
-                  <SpeechBubble text="i love cheeky 2am dessert seshes too i wont lie😋" direction="right" />
+                  <SpeechBubble text="i love cheeky 2am dessert seshes too😋" direction="right" />
                   <div className='delivered'>Delivered</div>
                 </FadeSection>
               </div>
