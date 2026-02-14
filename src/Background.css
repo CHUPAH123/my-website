@@ -1,0 +1,60 @@
+.night {
+    opacity: 0;
+    transition: opacity ease 1s;
+}
+
+.night.n_f { 
+    opacity: 0.8;
+}   
+
+.sky {
+    opacity: 0;
+    transition: opacity ease 1s;
+}
+
+.sky.s_f {
+    opacity: 0.8;
+}
+
+
+.background {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.sun {
+    position: fixed;
+    inset: 0;
+    top: 25px;
+    left: 93%;
+    background-color: #ffcf33;
+    z-index: 1000;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: background-color ease 250ms;
+}
+
+.sun.moon {
+    background-color: #ccc;
+}
+
+.sun.moon:hover {
+    background-color: #ffcf33;
+}
+
+.sun:hover {
+    background-color: #fbf7eb;
+    
+}
+
