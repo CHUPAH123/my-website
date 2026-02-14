@@ -142,8 +142,10 @@ function getPage() {
             <div className='gap'></div>
             <div className={night ? 'convo_header dark' : 'convo_header bright'}>
               <img className='avatar' src='portfolio.jpg'></img>
-              <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
-              <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+              <div className='icons'>
+                <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
+                <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+              </div>
               <div className='avatar_name'>Portfolio</div>
               <div className='avatar_active'>1 active now</div>
             </div>
@@ -333,8 +335,10 @@ function getPage() {
             <div className='gap'></div>
             <div className={night ? 'convo_header dark' : 'convo_header bright'}>
               <img className='avatar' src='aboutme.png'></img>
-              <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
-              <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+              <div className='icons'>
+                <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
+                <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+              </div>
               <div className='avatar_name'>About me</div>
               <div className='avatar_active'>1 active now</div>
             </div>
@@ -343,7 +347,7 @@ function getPage() {
               <div className='project_item'></div>
               <div className='project_item left'>
                 <FadeSection>
-                  <SpeechBubble text="Sooo is chup really your name ?? 🤨" direction="right" />
+                  <SpeechBubble text="Sooo is chup really your real name  ?? 🤨" direction="right" />
                 </FadeSection>
               </div>
 
@@ -368,7 +372,7 @@ function getPage() {
               <div className='project_item'></div>
               <div className='project_item left'>
                 <FadeSection>
-                  <SpeechBubble text="How did you come up with that nickname??" direction="right" />
+                  <SpeechBubble text="How did you come up with that nickname?? give me some lore" direction="right" />
                 </FadeSection>
               </div>
 
@@ -440,7 +444,7 @@ function getPage() {
               <div className='project_item'></div>
               <div className='project_item left'>
                 <FadeSection>
-                  <SpeechBubble text="Those are some really healthy hobbies😆" direction="right" />
+                  <SpeechBubble text="Those are some really healthy hobbies to have😆" direction="right" />
                 </FadeSection>
               </div>
 
@@ -463,7 +467,7 @@ function getPage() {
               <div className='project_item'></div>
               <div className='project_item left'>
                 <FadeSection>
-                  <SpeechBubble text="omg that looks like a heart attack waiting to happen" direction="right" />
+                  <SpeechBubble text="i love cheeky 2am dessert seshes too i wont lie😋" direction="right" />
                   <div className='delivered'>Delivered</div>
                 </FadeSection>
               </div>
@@ -521,9 +525,12 @@ function getPage() {
           <div className='main'>
             <div className='gap'></div>
             <div className={night ? 'convo_header dark' : 'convo_header bright'}>
-              <img className='avatar' src='random.png'></img>
-              <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
-              <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+              <img className='avatar' src='aboutme.png'></img>
+              <div className='icons'>
+                <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
+                <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
+              </div>
+              
               <div className='avatar_name'>Random Photos</div>
               <div className='avatar_active'>1 active now</div>
             </div>
