@@ -89,8 +89,9 @@ function getPage() {
             
           </div>
         </div>
-
+        <div className='sun_pos'>
         <button className={night ? 'sun moon' : 'sun'} onClick={() => { changeTime(!night) }}></button>
+        </div>
         <div className={night ? `sky background` : 'sky s_f background'}>
           <img src='sunset.png' alt='background image of a sunset'></img>
         </div>

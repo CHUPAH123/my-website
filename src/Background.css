@@ -42,6 +42,12 @@
     transition: background-color ease 250ms;
 }
 
+.sun_pos {
+    position: fixed;
+    top: 25px;
+    left: 93%;
+}
+
 .sun.moon {
     background-color: #ccc;
 }
