@@ -1,6 +1,6 @@
 import './App.css'
 import './Background.css'
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useFadeInOnScroll } from "./fade";
 
 interface SpeechBubbleProps {
@@ -161,7 +161,7 @@ function getPage() {
               <div className='project_item'>
                 <FadeSection>
                   <div className='image-bubble left'>
-                    <img className="images" src="/freecodecamp.png" alt="freecodecamp" />
+                    <img className="images" src="freecodecamp.png" alt="freecodecamp" />
                   </div>
                 </FadeSection>
               </div>
@@ -536,9 +536,9 @@ function getPage() {
                     <div className='container'>
                       <div className='slider-wrapper'>
                         <div className='slider'>
-                          <img className="images" id='dog1' src="/dog.png" alt="Image of Snowy" />
-                          <img className="images" id='dog2' src="/dog2.jpg" alt="Image of Snowy2" />
-                          <img className="images" id='dog3' src="/dog3.jpg" alt="Image of Snowy3" />
+                          <img className="images" id='dog1' src="dog.png" alt="Image of Snowy" />
+                          <img className="images" id='dog2' src="dog2.jpg" alt="Image of Snowy2" />
+                          <img className="images" id='dog3' src="dog3.jpg" alt="Image of Snowy3" />
                           <div className='slider-nav'>
                             <a href='#dog1'></a>
                             <a href='#dog2'></a>
