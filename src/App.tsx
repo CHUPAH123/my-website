@@ -527,7 +527,7 @@ function getPage() {
           <div className='main'>
             <div className='gap'></div>
             <div className={night ? 'convo_header dark' : 'convo_header bright'}>
-              <img className='avatar' src='aboutme.png'></img>
+              <img className='avatar' src='random.png'></img>
               <div className='icons'>
                 <img className='header_icon' src='phone.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}></img>
                 <img className='header_icon two' src='info.svg' onClick={() => window.location.href = "https://www.youtube.com/watch?v=OxstMK_Gkzw"}></img>
